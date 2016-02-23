@@ -1,0 +1,34 @@
+* {
+  font-family: 'Playfair Display', serif;
+  color: #2B2B2B; }
+
+.hero {
+  height: 750px;
+  background-color: #9CFFE9;
+  position: relative;
+  width: 100%; }
+
+.greeting-container {
+  padding-top: 50px;
+  text-align: center; }
+
+.quoteContainer {
+  margin: 0 auto; }
+
+.whiteBox {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  text-align: left; }
+
+.whiteBox-container {
+  margin-top: 300px; }
+
+.song-title {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 40px;
+  box-shadow: 10px 10px 5px #277160; }
+
+/*# sourceMappingURL=main.css.map */
