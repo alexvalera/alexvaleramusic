@@ -42,6 +42,10 @@ nav p {
     border-bottom: 5px solid white;
   }
 
+  .quote-container h2 {
+    font-size: 18px;
+  }
+
   .quote-container p {
     margin-top: 20px;
   }
@@ -49,6 +53,9 @@ nav p {
   @media only screen and (min-width: 600px) {
     .quote-container h1 {
       font-size: 48px;
+    }
+    .quote-container h2 {
+      font-size: 36px;
     }
   }
 
