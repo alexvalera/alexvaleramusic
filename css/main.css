@@ -1,18 +1,71 @@
 * {
-  font-family: 'PT Sans', sans-serif; }
+  font-family: 'Avenir', sans-serif; }
+
+body.home {
+  background-color: #212121;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav {
+  margin-top: 3rem;
+  padding-left: 2rem;
+  color: white;
+}
+
+
+
+nav p {
+  display: inline-block;
+  font-size: 16px;
+  padding: 5px;
+}
 
 .hero {
   width: 100%;
-  background-color: #50E3C2;
   height: 100vh;
   display: flex;
-  align-items: center; }
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+}
 
 .quote-container {
   margin: 0 auto;
-  max-width: 400px;
-  background-color: white;
-  color: black;
+  color: white;
   padding: 20px; }
+
+  .quote-container h1 {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-bottom: 5px solid white;
+  }
+
+  .quote-container p {
+    margin-top: 20px;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .quote-container h1 {
+      font-size: 48px;
+    }
+  }
+
+  .spotify {
+    padding-left: 100px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spotify img {
+    width: 50px;
+  }
+
+  .spotify {
+    color: white;
+  }
 
 /*# sourceMappingURL=main.css.map */
