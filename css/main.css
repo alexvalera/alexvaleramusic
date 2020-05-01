@@ -30,6 +30,22 @@
   width: 250px;
 }
 
+.cta {
+  margin-top: 2rem;
+}
+
+.cta a {
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.cta a:nth-child(1) {
+  margin-right: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .ep-cover img {
     height: 400px;
